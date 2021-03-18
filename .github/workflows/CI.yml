@@ -30,6 +30,6 @@ jobs:
             /Applications/Xcode_11.3.app &&
             /usr/bin/xcodebuild -version
       - name: Run unit tests
-        run: xcodebuild clean test -project 'GithubAction/GithubAction.xcodeproj' -scheme 'GithubAction' -destination 'platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest'
+        run: xcodebuild clean test -project 'GithubAction/GithubAction.xcodeproj' -scheme 'GithubAction' -destination 'platform=iOS Simulator,name=iPhone 11,OS=14.4'
 
 
