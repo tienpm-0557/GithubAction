@@ -25,6 +25,7 @@ jobs:
           committer: GitHub <${{ github.actor }}>
           author: ${{ github.actor }} <${{ github.actor }}>
           signoff: false
+          base: main
           branch: example-patches
           delete-branch: true
           title: '[Example] Update report'
