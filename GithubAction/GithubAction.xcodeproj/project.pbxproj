@@ -16,6 +16,7 @@
 		6CBF4AF12603A5030063924B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF4AEF2603A5030063924B /* LaunchScreen.storyboard */; };
 		6CBF4AFC2603A5040063924B /* GithubActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBF4AFB2603A5040063924B /* GithubActionTests.swift */; };
 		6CBF4B072603A5040063924B /* GithubActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBF4B062603A5040063924B /* GithubActionUITests.swift */; };
+		6CBF4B182603A59A0063924B /* CI.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF4B172603A59A0063924B /* CI.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6CBF4B022603A5040063924B /* GithubActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBF4B062603A5040063924B /* GithubActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GithubActionUITests.swift; sourceTree = "<group>"; };
 		6CBF4B082603A5040063924B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CBF4B172603A59A0063924B /* CI.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; name = CI.yml; path = ../.github/workflows/CI.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		6CBF4AD52603A5030063924B = {
 			isa = PBXGroup;
 			children = (
+				6CBF4B172603A59A0063924B /* CI.yml */,
 				6CBF4AE02603A5030063924B /* GithubAction */,
 				6CBF4AFA2603A5040063924B /* GithubActionTests */,
 				6CBF4B052603A5040063924B /* GithubActionUITests */,
@@ -236,6 +239,7 @@
 			files = (
 				6CBF4AF12603A5030063924B /* LaunchScreen.storyboard in Resources */,
 				6CBF4AEE2603A5030063924B /* Assets.xcassets in Resources */,
+				6CBF4B182603A59A0063924B /* CI.yml in Resources */,
 				6CBF4AE92603A5030063924B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
