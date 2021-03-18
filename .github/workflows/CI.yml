@@ -23,8 +23,8 @@ jobs:
       - uses: actions/checkout@v1
       - name: List available Xcode versions
         run: ls /Applications | grep Xcode
-      - name: List available Xcode versions
-        run: instruments -s devices
+      - name: List available Devices
+        run: xcrun simctl list
       - name: Select Xcode
         run: sudo xcode-select -switch
             /Applications/Xcode_11.3.app &&
