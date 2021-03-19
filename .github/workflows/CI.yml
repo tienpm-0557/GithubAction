@@ -12,7 +12,7 @@ on:
       - '.github/workflows/swiftlint.yml'
       - '.swiftlint.yml'
       - '**/*.swift'
-        
+
 jobs:
   SwiftLint:
     runs-on: ubuntu-latest
