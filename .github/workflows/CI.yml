@@ -22,7 +22,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: Update report
           committer: GitHub ${{ github.actor }}
           author: ${{ github.actor }} <${{ github.actor }}>
